@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+	<title> Екатерина Смирнова </title>
+    <link rel="icon" href="../img/sitelogo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../style.css">
+        <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+ 
+    ym(86359701, "init", {
+         clickmap:true,
+         trackLinks:true,
+         accurateTrackBounce:true,
+         webvisor:true
+    });
+ </script>
+ <noscript><div><img src="https://mc.yandex.ru/watch/86359701" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+ <!-- /Yandex.Metrika counter -->
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+        <h1 class ="header__title">Екатерина Смирнова</h1>
+        <a href="mailto:ekatalmu@gmail.com" class="header__link">ekatalmu@gmail.com</a><br>
+        <button class="back-to-main" onclick="window.location.href='../index.html'">На главную</button>
+    </div>
+    </header>
+
+    <section class ="container emailer__grid">
+        <div></div>
+     <article class="emailer__background">
+         <p class="emailer__description">Хотите очистить список адресов от лишних запятых и случайных данных? 
+             <br> 
+            Вам дали большую таблицу с адресами в самых разных колонках, и вам нужны только адреса?
+        <br> Копируйте все в поле ниже. </p>
+       <textarea placeholder="Введите или вставьте текст сюда" class="emailer__orig"></textarea>
+       <button class="emailer__button">Щелкните сюда</button>
+       <div class="emailer__result__positioning">
+       <textarea placeholder="Здесь будут извлеченные адреса в столбик" class="emailer__column"></textarea>
+       <textarea placeholder="Здесь будут извлеченные адреса через запятую" class="emailer__list"></textarea>
+      </div>
+      <div class="copy-buttons__positioning">
+          <button class="copy-button copy-button__column">Копировать адреса столбиком</button>
+          <button class="copy-button copy-button__row">Копировать адреса списком</button>
+      </div>
+    </article>
+     
+       
+ 
+ 
+    </section>
+    
+    <script src="emailer.js"></script>
+</body>
